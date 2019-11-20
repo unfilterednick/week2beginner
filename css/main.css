@@ -147,17 +147,14 @@ footer textarea {
 
 .button-group {
     width: 67%;
-    float: left;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 16%;
 }
 
 .button-group button {
     border: none;
     background: #fff;
     color: #565656;
-    padding: 0 0 5px 0;
-}
-
-.button-group button:last-child {
-    float: right;
-    padding: 0;
+    padding: 0 0 5 0;
 }
